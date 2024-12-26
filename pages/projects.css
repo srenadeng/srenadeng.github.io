@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+VIC+Guides&display=swap');
+::selection {
+    background: #f5e35b;
+  }
+
+body {
+    font-family:"Arial";
+    font-size: 18px;
+    background-color: #fcf7c0;
+} img {
+    width: 40%;
+    border: 1px solid black;
+    margin: 10px;
+} h1 {
+    position: absolute;
+    top: 5px;
+    left: 40%;
+    margin-left: 50px;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+} #desc {
+    position: absolute;
+    left: 40%;
+    margin-left: 50px;
+    margin-right: 20px;
+    margin-top: 40px;
+    top: 100px;
+}
+#back {
+    margin-top: 50%;
+} a {
+    text-decoration: none;
+    color: black;
+} a:hover {
+    text-decoration:underline;
+    background-color: white;
+}
+@media only screen and (max-width: 1155px) {
+    img {
+        width: 462px;
+    } #desc {
+        left: 470px;
+    } h1 {
+        left: 470px;
+    }
+
+}
+
+@media only screen and (max-width: 800px) {
+    #desc {
+        left: 20px;
+        margin-left: 0px;
+        clear: right;
+        top: auto;
+        padding-top: 50px;
+    } h1 {
+        left: 20px;
+        margin-left: 0px;
+        clear: right;
+        top: auto;
+    }
+}
