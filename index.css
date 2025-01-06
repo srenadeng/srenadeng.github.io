@@ -1,3 +1,10 @@
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+  }
+
 ::selection {
     background: #f5e35b;
   }
@@ -36,6 +43,7 @@ body {
     z-index: 100;
 } .drag:hover {
     filter: drop-shadow(8px 8px 8px #f5e35b);
+    animation: shake 0.2s;
 } #proj1 {
     left: 15%;
     top: 54%;
