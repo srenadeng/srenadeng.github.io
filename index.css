@@ -11,7 +11,6 @@
 body {
     font-family: "Arial";
     font-weight: 500;
-    text-transform: uppercase;
     background-color: #f2f1da;
 } #dog {
     position: absolute;
@@ -48,31 +47,31 @@ body {
     left: 15%;
     top: 54%;
     margin-top: 81px;
-    margin-left: -8px;
+    margin-left: 6px;
 } #proj2 {
     left: 28%;
     top: 30%;
     margin-top: 110px;
-    margin-left: -16px;
+    margin-left: -6px;
 } #proj3 {
     left: 50%;
     top: 10%;
     margin-top: 86px;
-    margin-left: -63px;
+    margin-left: -55px;
 } #proj4 {
     top: 30%;
     right: 28%;
     margin-top: 72px;
+    margin-right: 8px;
 } #proj5 {
     right: 15%;
     top: 54%;
     margin-top: 128px;
-    margin-right: -20px;
 } #serena {
     left: 50%;
     top: 45%;
-    margin-top: 230px;
-    margin-left: -85px;
+    margin-top: 240px;
+    margin-left: -68px;
     font-size: 24px;
 } .text {
     position: absolute;
@@ -96,9 +95,10 @@ body {
     } #proj1, #proj3, #proj4 {
         margin-top: 10.4%;
     } #proj2, #proj5 {
-        margin-top: 12.8%;
+        margin-top: 13%;
     } #serena {
-        margin-top: 24%;
+        font-size:20px;
+        margin-top: 26%;
     }
     
 }
