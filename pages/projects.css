@@ -5,11 +5,11 @@
 body {
     font-family:"Arial";
     font-size: 18px;
-    background-color: #fcf7c0;
+    background-color: #f2f1da;
 } img {
-    width: 40%;
-    border: 1px solid black;
+    width: 39%;
     margin: 10px;
+    border-radius: 10px;
 } h1 {
     position: absolute;
     top: 5px;
@@ -38,7 +38,7 @@ body {
 }
 @media only screen and (max-width: 1155px) {
     img {
-        width: 462px;
+        width: 450px;
     } #desc {
         left: 470px;
     } h1 {
